@@ -1,6 +1,6 @@
 {
   "name": "react-native-emoji-popup-redactable",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Emoji Popup for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
