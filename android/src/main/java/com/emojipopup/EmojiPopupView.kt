@@ -46,4 +46,10 @@ class EmojiPopupView(context: Context) : FrameLayout(context) {
     removeView(emojiPickerView)
     setupView()
   }
+
+  override fun onDetachedFromWindow() {
+    super.onDetachedFromWindow()
+    emojiPickerView.setOnEmojiPickedListener(null)
+    removeAllViews()
+  }
 }
